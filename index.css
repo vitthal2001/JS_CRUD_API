@@ -1,0 +1,81 @@
+.container {
+    margin: 70px;
+}
+
+
+table {
+    border: 5px solid white;
+    box-shadow: 0px 0px 10px 0px black;
+}
+
+thead {
+
+    border-radius: 10px;
+    background-color: skyblue;
+}
+
+th {
+    text-align: center;
+    border: 3px solid black;
+}
+
+tr {
+    text-align: center;
+    border: 3px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+tr:nth-child(odd) {
+    background-color: skyblue;
+}
+
+.trashicon {
+    color: red;
+
+}
+
+.editicon {
+    color: green;
+}
+
+
+.trashicon,
+.editicon,
+.viewicon {
+    cursor: pointer;
+    margin: 10px;
+}
+
+.modal-body {
+    width: 70%;
+}
+
+.container-form {
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px grey;
+    row-gap: 20px;
+    padding: 30px;
+    width: 120%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.inputs {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    height: 40px;
+    text-indent: 15px;
+}
+
+.btn-hover {
+    background-color: rgb(62, 62, 221);
+    color: white;
+    border: 1px solid black;
+}

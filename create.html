@@ -1,0 +1,62 @@
+<html>
+<head>
+
+<title>Crud Project</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="./css/create.css">
+<style>
+  body{
+    background-image: url(./images/image1.jpg);
+  }
+</style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg bg-info m-1">
+  <div class="container-fluid nav-container">
+    <a class="navbar-brand" href="#">Travel with Us</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="manage.html">Create</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control mt-1 me-2" type="search" placeholder="Search" aria-label="Search">
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div class="container d-flex justify-content-center align-items-center">
+
+<div class="container-content">
+<h2> <h2>Add Place </h2>
+<input type="text" class="inputs" id="name" placeholder="Enter name:" onkeyup="readValue('name',this.value)"/>
+<input type="number" class="inputs" id="price" placeholder="Enter price:" onkeyup="readValue('price',this.value)"/>
+<input type="text" class="inputs" id="imageURL" placeholder="Enter image-url" onkeyup="readValue('imageURL',this.value)"/>
+<input type="text" class="inputs" id="package" placeholder="Enter package:" onkeyup="readValue('package',this.value)"/>
+<input type="text" class="inputs" id="description" placeholder="Enter description:" onkeyup="readValue('description',this.value)"/>
+
+<button class="btn btn-info buttons" onclick="addPlace()">Add</button>
+<button class="btn btn-info buttons" onclick="viewData()">Manage Data</button>
+
+</div>
+
+</div>
+
+<script src="./js/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+

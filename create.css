@@ -1,0 +1,27 @@
+.container {
+    margin: 70px;
+}
+
+.container-content {
+    background-color: white;
+    row-gap: 20px;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    box-shadow: 0px 0px 10px 0px grey;
+}
+
+.inputs {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    height: 40px;
+    text-indent: 15px;
+}
+
+.buttons {
+    border-radius: 10px;
+    border: solid gray;
+}
